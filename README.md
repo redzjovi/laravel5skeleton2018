@@ -59,6 +59,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Included Package
 - [barryvdh/laravel-debugbar](https://packagist.org/packages/barryvdh/laravel-debugbar)
+- [laracasts/flash](https://packagist.org/packages/laracasts/flash)
 - [league/csv](https://packagist.org/packages/league/csv)
 - [nwidart/laravel-modules](https://packagist.org/packages/nwidart/laravel-modules)
 - [prettus/l5-repository](https://packagist.org/packages/prettus/l5-repository)
