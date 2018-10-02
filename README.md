@@ -58,6 +58,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Included Package
+- [arcanedev/log-viewer](https://packagist.org/packages/arcanedev/log-viewer)
 - [barryvdh/laravel-debugbar](https://packagist.org/packages/barryvdh/laravel-debugbar)
 - [laracasts/flash](https://packagist.org/packages/laracasts/flash)
 - [league/csv](https://packagist.org/packages/league/csv)
@@ -71,3 +72,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - Run command, php artisan key:generate
 - Run command, php artisan migrate
 - Run command, php artisan module:migrate
+
+## To Do
+- 
