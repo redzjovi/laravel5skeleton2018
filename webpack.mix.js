@@ -27,4 +27,5 @@ mix.combine([
     'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
 
     'Modules/Cms/Resources/assets/js/core.js',
+    'public/vendor/lord/laroute/js/laroute.js',
 ], 'public/js/backend--app.js');
