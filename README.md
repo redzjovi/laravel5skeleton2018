@@ -70,6 +70,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - [proengsoft/laravel-jsvalidation](https://packagist.org/packages/proengsoft/laravel-jsvalidation)
 - [recca0120/terminal](https://packagist.org/packages/recca0120/terminal)
 - [renatomarinho/laravel-page-speed](https://packagist.org/packages/renatomarinho/laravel-page-speed)
+- [spatie/laravel-permission](https://packagist.org/packages/spatie/laravel-permission)
 
 ## Installation
 - Run command, composer install
@@ -77,6 +78,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - Run command, php artisan key:generate
 - Run command, php artisan migrate
 - Run command, php artisan module:migrate
+- Run command, php artisan module:seed
 
 ## To Do
 -

@@ -16,7 +16,8 @@
         "nwidart/laravel-modules": "^2.7",
         "prettus/l5-repository": "^2.6",
         "proengsoft/laravel-jsvalidation": "^2.3",
-        "renatomarinho/laravel-page-speed": "^1.8"
+        "renatomarinho/laravel-page-speed": "^1.8",
+        "spatie/laravel-permission": "^2.23"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.1",
