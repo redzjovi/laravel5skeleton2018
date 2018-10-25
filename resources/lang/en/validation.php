@@ -103,6 +103,9 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        'users' => [
+            'verification_code_is_invalid' => 'Verification code is invalid',
+        ],
     ],
 
     /*
@@ -119,6 +122,7 @@ return [
     'attributes' => [
         'action' => 'Action',
         'id' => 'Id',
+        'verification_code' => 'Verification Code',
     ],
 
 ];
