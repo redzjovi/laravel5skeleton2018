@@ -51,6 +51,11 @@
         }
     },
     "scripts": {
+        "migrate:refresh:seed": [
+            "@php artisan migrate:refresh",
+            "@php artisan module:migrate",
+            "@php artisan module:seed"
+        ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
