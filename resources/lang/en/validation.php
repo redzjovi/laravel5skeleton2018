@@ -121,9 +121,12 @@ return [
 
     'attributes' => [
         'action' => 'Action',
+        'email' => 'Email',
         'guard_name' => 'Guard Name',
         'id' => 'Id',
         'name' => 'Name',
+        'password' => 'Password',
+        'password_confirmation' => 'Password Confirmation',
         'verification_code' => 'Verification Code',
     ],
 
