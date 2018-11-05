@@ -6,7 +6,7 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
-        "arcanedev/log-viewer": "^4.4",
+        "arcanedev/log-viewer": "^4.6",
         "fideloper/proxy": "^4.0",
         "jenssegers/agent": "^2.6",
         "laracasts/flash": "^3.0",
@@ -14,7 +14,7 @@
         "laravel/tinker": "~1.0",
         "league/csv": "^9.1",
         "lord/laroute": "^2.4",
-        "nwidart/laravel-modules": "^2.7",
+        "nwidart/laravel-modules": "^4.0",
         "prettus/l5-repository": "^2.6",
         "proengsoft/laravel-jsvalidation": "^2.3",
         "renatomarinho/laravel-page-speed": "^1.8",
