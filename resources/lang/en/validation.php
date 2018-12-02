@@ -121,12 +121,16 @@ return [
 
     'attributes' => [
         'action' => 'Action',
+        'content' => 'Content',
         'email' => 'Email',
+        'excerpt' => 'Excerpt',
         'guard_name' => 'Guard Name',
         'id' => 'Id',
         'name' => 'Name',
         'password' => 'Password',
         'password_confirmation' => 'Password Confirmation',
+        'slug' => 'Slug',
+        'title' => 'Title',
         'verification_code' => 'Verification Code',
     ],
 
