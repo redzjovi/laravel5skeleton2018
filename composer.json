@@ -17,6 +17,7 @@
         "nwidart/laravel-modules": "^4.0",
         "proengsoft/laravel-jsvalidation": "^2.3",
         "renatomarinho/laravel-page-speed": "^1.8",
+        "spatie/laravel-medialibrary": "^7.0.0",
         "spatie/laravel-permission": "^2.23"
     },
     "require-dev": {
