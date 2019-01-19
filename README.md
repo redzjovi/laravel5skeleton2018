@@ -75,6 +75,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - [renatomarinho/laravel-page-speed](https://packagist.org/packages/renatomarinho/laravel-page-speed)
 - [spatie/laravel-medialibrary](https://packagist.org/packages/spatie/laravel-medialibrary)
 - [spatie/laravel-permission](https://packagist.org/packages/spatie/laravel-permission)
+- [stechstudio/laravel-php-cs-fixer](https://packagist.org/packages/stechstudio/laravel-php-cs-fixer)
 
 ## Installation
 - Run command, composer install

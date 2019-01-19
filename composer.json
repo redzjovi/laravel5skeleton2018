@@ -18,7 +18,8 @@
         "proengsoft/laravel-jsvalidation": "^2.3",
         "renatomarinho/laravel-page-speed": "^1.8",
         "spatie/laravel-medialibrary": "^7.0.0",
-        "spatie/laravel-permission": "^2.23"
+        "spatie/laravel-permission": "^2.23",
+        "stechstudio/laravel-php-cs-fixer": "^1.1"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.1",
