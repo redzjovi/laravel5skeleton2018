@@ -6,6 +6,9 @@
  */
 
 require('./bootstrap');
+require('@fortawesome/fontawesome-free');
+require('bootstrap-select');
+require('select2');
 
 window.Vue = require('vue');
 

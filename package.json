@@ -21,7 +21,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.2.0",
-        "bootstrap-select": "^1.13.3",
+        "bootstrap-select": "^1.13.5",
         "pjax": "^0.2.7",
         "select2": "^4.0.6-rc.1",
         "vue-template-compiler": "^2.5.22"
