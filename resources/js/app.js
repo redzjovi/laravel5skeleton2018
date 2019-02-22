@@ -19,9 +19,10 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('textarea-tinymce', require('./components/TextareaTinymceComponent.vue').default);
 
 import BootstrapVue from 'bootstrap-vue'
-Vue.use(BootstrapVue)
+Vue.use(BootstrapVue);
 
 const app = new Vue({
     el: '#app'

@@ -14,10 +14,9 @@ let mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
 
-mix
-    .styles(
+mix.styles(
         [
-            'Modules/Cms/Resources/assets/node_modules/bootstrap/bootstrap-custom.css',
+            'Modules/Cms/Resources/assets/node_modules/bootstrap/bootstrap-custom.css'
         ],
         'public/css/backend--app.css'
     );
@@ -30,7 +29,7 @@ mix.combine(
         'Modules/Cms/Resources/assets/node_modules/select2/select2-custom.js',
         'Modules/Cms/Resources/assets/js/core.js',
         'public/vendor/jsvalidation/js/jsvalidation.min.js',
-        'public/vendor/lord/laroute/js/laroute.js',
+        'public/vendor/lord/laroute/js/laroute.js'
     ],
     'public/js/backend--app.js'
 );
