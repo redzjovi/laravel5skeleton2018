@@ -13,7 +13,6 @@
         "laravel/framework": "5.7.*",
         "laravel/tinker": "~1.0",
         "league/csv": "^9.1",
-        "lord/laroute": "^2.4",
         "nwidart/laravel-modules": "^4.0",
         "renatomarinho/laravel-page-speed": "^1.8",
         "spatie/laravel-medialibrary": "^7.0.0",
@@ -67,7 +66,6 @@
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan fixer:fix",
-            "@php artisan laroute:generate",
             "@php artisan package:discover"
         ]
     },
