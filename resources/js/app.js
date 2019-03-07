@@ -19,6 +19,8 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('input-file-image-default', require('./components/InputFileImageDefaultComponent.vue').default);
+Vue.component('input-file-images', require('./components/InputFileImagesComponent.vue').default);
 Vue.component('textarea-tinymce', require('./components/TextareaTinymceComponent.vue').default);
 
 import BootstrapVue from 'bootstrap-vue'
