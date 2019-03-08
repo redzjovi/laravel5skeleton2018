@@ -14,7 +14,6 @@
 </template>
 
 <script>
-import tinymce from 'tinymce/tinymce';
 import tinymceVue from 'vue-tinymce-editor';
 
 export default {
