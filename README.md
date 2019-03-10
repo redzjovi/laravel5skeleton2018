@@ -75,12 +75,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - [spatie/laravel-medialibrary](https://packagist.org/packages/spatie/laravel-medialibrary)
 - [spatie/laravel-permission](https://packagist.org/packages/spatie/laravel-permission)
 - [stechstudio/laravel-php-cs-fixer](https://packagist.org/packages/stechstudio/laravel-php-cs-fixer)
+- [tymon/jwt-auth](https://packagist.org/packages/tymon/jwt-auth)
 
 ## Installation
 - Run command, composer install
 - Copy .env.example to .env, and update all setting
 - Run command
 ```
+php artisan jwt:secret
 php artisan key:generate
 php artisan migrate
 php artisan module:migrate
@@ -89,4 +91,4 @@ php artisan storage:link
 ```
 
 ## To Do
-- ::createAttributes
+-

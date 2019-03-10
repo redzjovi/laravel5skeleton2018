@@ -17,7 +17,8 @@
         "renatomarinho/laravel-page-speed": "^1.8",
         "spatie/laravel-medialibrary": "^7.0.0",
         "spatie/laravel-permission": "^2.23",
-        "stechstudio/laravel-php-cs-fixer": "^1.1"
+        "stechstudio/laravel-php-cs-fixer": "^1.1",
+        "tymon/jwt-auth": "1.0.0-rc.3"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.1",
