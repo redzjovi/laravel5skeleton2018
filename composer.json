@@ -13,6 +13,7 @@
         "laravel/framework": "5.7.*",
         "laravel/tinker": "~1.0",
         "league/csv": "^9.1",
+        "mpociot/laravel-apidoc-generator": "^3.4",
         "nwidart/laravel-modules": "^4.0",
         "renatomarinho/laravel-page-speed": "^1.8",
         "spatie/laravel-medialibrary": "^7.0.0",
@@ -66,8 +67,9 @@
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan fixer:fix",
-            "@php artisan package:discover"
+            "@php artisan package:discover",
+            "@php artisan apidoc:generate",
+            "@php artisan fixer:fix"
         ]
     },
     "config": {

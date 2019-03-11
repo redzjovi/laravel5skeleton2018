@@ -69,6 +69,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - [laracasts/flash](https://packagist.org/packages/laracasts/flash)
 - [laravel/telescope](https://packagist.org/packages/laravel/telescope)
 - [league/csv](https://packagist.org/packages/league/csv)
+- [mpociot/laravel-apidoc-generator](https://packagist.org/packages/mpociot/laravel-apidoc-generator)
 - [nwidart/laravel-modules](https://packagist.org/packages/nwidart/laravel-modules)
 - [recca0120/terminal](https://packagist.org/packages/recca0120/terminal)
 - [renatomarinho/laravel-page-speed](https://packagist.org/packages/renatomarinho/laravel-page-speed)
@@ -91,4 +92,4 @@ php artisan storage:link
 ```
 
 ## To Do
--
+- all rest for tymon/jwt-auth
