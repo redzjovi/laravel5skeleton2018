@@ -92,4 +92,4 @@ php artisan storage:link
 ```
 
 ## To Do
-- all rest for tymon/jwt-auth
+- 
