@@ -34,6 +34,7 @@ export default {
                     images_upload_handler: function (blobInfo, success, failure) {
                         var xhr = new XMLHttpRequest();
                         xhr.open('POST', '/api/v1/medium/tinymce/image');
+                        xhr.setRequestHeader('Accept', 'application/json');
 
                         xhr.onload = function() {
                             var json = JSON.parse(xhr.responseText);
