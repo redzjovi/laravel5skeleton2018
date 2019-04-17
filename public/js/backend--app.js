@@ -13,14 +13,6 @@ var pjax = new Pjax({
     selectors: ['[pjax-selectors]']
 });
 
-$(document).ajaxSuccess(function() {
-    $('.select2').select2();
-});
-
-$(document).ready(function() {
-    $('.select2').select2();
-});
-
 $(document).on('click', '.table_row_checkbox', function () {
     var checked = true;
     $('.table_row_checkbox').each(function () {

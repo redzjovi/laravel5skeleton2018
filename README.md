@@ -92,4 +92,4 @@ php artisan storage:link
 ```
 
 ## To Do
-- 
+- Use model instead table name

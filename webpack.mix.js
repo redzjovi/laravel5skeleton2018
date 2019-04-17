@@ -26,7 +26,6 @@ mix.combine(
         'node_modules/pjax/pjax.min.js',
         'Modules/Cms/Resources/assets/node_modules/bootstrap-select/bootstrap-select.js',
         'Modules/Cms/Resources/assets/node_modules/pjax/pjax-custom.js',
-        'Modules/Cms/Resources/assets/node_modules/select2/select2-custom.js',
         'Modules/Cms/Resources/assets/js/core.js'
     ],
     'public/js/backend--app.js'

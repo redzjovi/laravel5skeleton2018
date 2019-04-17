@@ -23,6 +23,7 @@ try {
 
 window.axios = require('axios');
 
+window.axios.defaults.headers.common['Accept-Language'] = document.documentElement.lang;
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /**

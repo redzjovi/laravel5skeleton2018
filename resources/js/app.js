@@ -18,6 +18,8 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+Vue.component('button-prompt-ajax', require('../../Modules/Cms/Resources/assets/js/components/button-prompt-ajax/ButtonPromptAjaxComponent.vue').default);
+Vue.component('select2', require('../../Modules/Cms/Resources/assets/js/components/select2-redzjovi/Select2Component.vue').default);
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('input-file-image-default', require('./components/InputFileImageDefaultComponent.vue').default);
 Vue.component('input-file-images', require('./components/InputFileImagesComponent.vue').default);
