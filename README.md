@@ -79,7 +79,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - [tymon/jwt-auth](https://packagist.org/packages/tymon/jwt-auth)
 
 ## Installation
-- Run command, composer install
+- Run command
+```
+git submodule update --init --recursive
+composer install
+```
 - Copy .env.example to .env, and update all setting
 - Run command
 ```
