@@ -97,3 +97,4 @@ php artisan storage:link
 
 ## To Do
 - Use model instead table name
+- In api docs, use like menu

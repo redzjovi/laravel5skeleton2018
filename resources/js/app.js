@@ -19,6 +19,7 @@ window.Vue = require('vue');
  */
 
 Vue.component('button-prompt-ajax', require('../../Modules/Cms/Resources/assets/js/components/button-prompt-ajax/ButtonPromptAjaxComponent.vue').default);
+Vue.component('menu-nestable', require('../../Modules/Menu/Resources/assets/js/components/draggable-redzjovi/MenuNestableComponent.vue').default);
 Vue.component('select2', require('../../Modules/Cms/Resources/assets/js/components/select2-redzjovi/Select2Component.vue').default);
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('input-file-image-default', require('./components/InputFileImageDefaultComponent.vue').default);
