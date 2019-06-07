@@ -81,6 +81,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Installation
 - Run command
 ```
+git pull origin master
 git submodule update --init --recursive
 composer install
 ```
