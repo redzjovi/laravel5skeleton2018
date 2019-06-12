@@ -44,7 +44,7 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
 
-            \Modules\Cms\Http\Middleware\LocalizationMiddleware::class,
+            \Modules\Localization\Http\Middleware\LocalizationMiddleware::class,
         ],
 
         'api' => [
@@ -52,7 +52,7 @@ class Kernel extends HttpKernel
             'bindings',
 
             \Barryvdh\Cors\HandleCors::class,
-            \Modules\Cms\Http\Middleware\LocalizationMiddleware::class,
+            \Modules\Localization\Http\Middleware\LocalizationMiddleware::class,
         ],
     ];
 
